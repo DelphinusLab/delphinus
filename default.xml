@@ -11,4 +11,6 @@
   </project>
   <project name="delphinus-wallet" path="wallet">
   </project>
+  <project name="delphinus-web3subscriber" path="web3subscriber">
+  </project>
 </manifest>
