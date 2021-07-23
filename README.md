@@ -3,7 +3,7 @@
 repo init -u https://github.com/ZhenXunGe/delphinus.git
 
 repo sync
-# how to use Docfile
+# how to use Dockerfile
 put it in the substrate-node folder
 
 docker build -t name:tag
