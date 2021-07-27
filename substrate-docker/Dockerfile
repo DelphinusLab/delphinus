@@ -1,10 +1,12 @@
 FROM ubuntu AS builder
-
 ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=Asia/Shanghai
-# The node will be built in this directory
-WORKDIR /dock-node
-
+RUN  apt-get -yq update && \
+     apt-get -y install git
+RUN mkdir /home/substrate && \
+    cd /home/substrate && \
+    git clone https://mk012347:b2x8cRTfcEnYxkE@github.com/ZhenXunGe/delphinus-substrate-node.git 
+WORKDIR /home/substrate/delphinus-substrate-node
 RUN apt -y update && \
     apt install -y --no-install-recommends \
     software-properties-common curl git file binutils binutils-dev \
@@ -19,11 +21,6 @@ ENV PATH /root/.cargo/bin:$PATH
 #compiler ENV
 ENV CC gcc
 ENV CXX g++
-COPY runtime runtime
-COPY node node
-COPY pallets pallets
-COPY Cargo.toml .
-COPY Cargo.lock .
 # setup rust nightly channel, pinning specific version as newer versions have a regression
 RUN rustup install nightly
 
@@ -33,7 +30,5 @@ RUN rustup default nightly
 # install wasm toolchain for substrate
 RUN rustup target add wasm32-unknown-unknown --toolchain nightly
 RUN cargo build --release
-COPY scripts scripts
-COPY start.sh .
-
 CMD ["sh", "start.sh"]
+
