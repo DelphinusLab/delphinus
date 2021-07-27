@@ -6,5 +6,5 @@ repo sync
 # how to use substrate-docker/Dockerfile
 put it in the substrate-node folder
 
-docker build -t name:tag  
-docker run -it -p port:port name:tag
+docker build -t start:latest .
+docker run -it -p 8081:9944 start:latest
