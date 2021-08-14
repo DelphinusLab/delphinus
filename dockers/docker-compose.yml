@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+    mongodb:
+      build: ./mongodb
+      network_mode: "host"
+      ports:
+        - 27017:27017
+    ropsten:
+      build: ./ropsten
+      network_mode: "host"
+    bsctestnet:
+      build: ./bsctestnet
+      network_mode: "host"
+    substrate:
+      build: ./substrate
+      network_mode: "host"
+
