@@ -3,8 +3,6 @@ services:
     mongodb:
       build: ./mongodb
       network_mode: "host"
-      ports:
-        - 27017:27017
     ropsten:
       build: ./ropsten
       network_mode: "host"
