@@ -1,13 +1,15 @@
-##The manifest repository
+#The manifest repository
 
-repo init -u https://github.com/ZhenXunGe/delphinus.git
+repo init -u git@github.com:ZhenXunGe/delphinus.git -b main
 
 repo sync
-##how to use substrate-docker/Dockerfile  
-docker build -t start:latest .  
-docker run -it -p 8081:9944 start:latest  
 
-Notice: Do not forget the "." after start:latest when run "docker build ..."  
+# how to use substrate-docker/Dockerfile
 
-# how to use monitors   
+docker build -t start:latest .
+
+docker run -it -p 8081:9944 start:latest
+
+# how to use monitors
+
 docker-compose up
