@@ -3,8 +3,11 @@
 repo init -u https://github.com/ZhenXunGe/delphinus.git
 
 repo sync
-# how to use substrate-docker/Dockerfile
+##how to use substrate-docker/Dockerfile  
 docker build -t start:latest .  
-docker run -it -p 8081:9944 start:latest
+docker run -it -p 8081:9944 start:latest  
 
-Notice: Do not forget the "." after start:latest when run "docker build ..."
+Notice: Do not forget the "." after start:latest when run "docker build ..."  
+
+# how to use monitors   
+docker-compose up

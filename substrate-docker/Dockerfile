@@ -5,7 +5,7 @@ RUN  apt-get -yq update && \
      apt-get -y install git
 RUN mkdir /home/substrate && \
     cd /home/substrate && \
-    git clone https://mk012347:b2x8cRTfcEnYxkE@github.com/ZhenXunGe/delphinus-substrate-node.git 
+    git clone https://mk012347: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@github.com/ZhenXunGe/delphinus-substrate-node.git 
 WORKDIR /home/substrate/delphinus-substrate-node
 RUN apt -y update && \
     apt install -y --no-install-recommends \
@@ -31,4 +31,3 @@ RUN rustup default nightly
 RUN rustup target add wasm32-unknown-unknown --toolchain nightly
 RUN cargo build --release
 CMD ["sh", "start.sh"]
-
