@@ -11,6 +11,10 @@
   </project>
   <project name="delphinus-wallet" path="wallet">
   </project>
+  <project name="delphinus-zkp" path="zkp">
+  </project>
+  <project name="delphinus-curves" path="curves">
+  </project>
   <project name="delphinus-web3subscriber" path="web3subscriber">
   </project>
 </manifest>
