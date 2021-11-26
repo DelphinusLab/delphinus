@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="ZhenXunGe" fetch="." />
-  <default remote="ZhenXunGe" revision="main" sync-j="4" />
+  <default remote="ZhenXunGe" revision="sign" sync-j="4" />
 
   <project name="delphinus-substrate-node" path="substrate-node">
   </project>
@@ -9,12 +9,20 @@
   </project>
   <project name="delphinus-solidity" path="solidity">
   </project>
-  <project name="delphinus-wallet" path="wallet">
+  <project name="delphinus-deployment" path="deployment">
+  </project>
+  <project name="delphinus-wallet"  path="wallet">
   </project>
   <project name="delphinus-zkp" path="zkp">
   </project>
   <project name="delphinus-curves" path="curves">
   </project>
   <project name="delphinus-web3subscriber" path="web3subscriber">
+  </project>
+  <project name="delphinus-substrate-frontend" path="substrate-frontend">
+  </project>
+  <project name="delphinus-crypto-rust" path="crypto-rust">
+  </project>
+  <project name="delphinus-l2-client-helper" path="l2-client-helper">
   </project>
 </manifest>
