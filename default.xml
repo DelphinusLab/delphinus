@@ -11,7 +11,7 @@
   </project>
   <project name="delphinus-deployment" path="deployment">
   </project>
-  <project name="delphinus-wallet"  path="wallet">
+  <project name="delphinus-frontend"  path="wallet">
   </project>
   <project name="delphinus-zkp" path="zkp">
   </project>
