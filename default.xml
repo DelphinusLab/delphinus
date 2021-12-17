@@ -17,8 +17,6 @@
   </project>
   <project name="delphinus-web3subscriber" path="web3subscriber">
   </project>
-  <project name="delphinus-substrate-frontend" path="substrate-frontend">
-  </project>
   <project name="delphinus-crypto-rust" path="crypto-rust">
   </project>
   <project name="delphinus-l2-client-helper" path="l2-client-helper">
