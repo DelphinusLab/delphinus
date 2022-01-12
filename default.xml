@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="DelphinusLab" fetch="." />
-  <default remote="DelphinusLab" revision="sign" sync-j="4" />
+  <default remote="DelphinusLab" revision="main" sync-j="4" />
 
   <project name="delphinus-substrate-node" path="substrate-node">
   </project>
