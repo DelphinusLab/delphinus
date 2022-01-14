@@ -21,4 +21,8 @@
   </project>
   <project name="delphinus-l2-client-helper" path="l2-client-helper">
   </project>
+  <project name="delphinus-ui" path="ui">
+  </project>
+  <project name="delphinus-ts-sdk" path="ts-sdk">
+  </project>
 </manifest>
