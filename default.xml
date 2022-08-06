@@ -25,4 +25,6 @@
   </project>
   <project name="delphinus-ts-sdk" path="ts-sdk">
   </project>
+  <project name="delphinus-slack-alert" path="slack-alert">
+  </project>
 </manifest>
