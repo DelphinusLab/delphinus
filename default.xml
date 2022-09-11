@@ -3,7 +3,7 @@
   <remote  name="DelphinusLab" fetch="." />
   <default remote="DelphinusLab" revision="main" sync-j="4" />
 
-  <project name="delphinus-substrate-node" path="substrate-node">
+  <project name="zkc-substrate-node" path="substrate-node">
   </project>
   <project name="delphinus-monitors" path="monitors">
   </project>
