@@ -2,6 +2,7 @@
 <manifest>
   <remote  name="DelphinusLab" fetch="." />
   <default remote="DelphinusLab" revision="main" sync-j="4" />
+
   
   <project name="delphinus-solidity" path="solidity">
   </project>
@@ -21,4 +22,5 @@
   </project>
   <project name="delphinus-ts-sdk" path="ts-sdk">
   </project>
+
 </manifest>
