@@ -8,10 +8,6 @@
   </project>
   <project name="delphinus-deployment" path="deployment">
   </project>
-  <project name="delphinus-zkp" path="zkp">
-  </project>
-  <project name="delphinus-curves" path="curves">
-  </project>
   <project name="delphinus-web3subscriber" path="web3subscriber">
   </project>
   <project name="delphinus-crypto-rust" path="crypto-rust">
