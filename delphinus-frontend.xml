@@ -6,7 +6,9 @@
   
   <project name="delphinus-solidity" path="solidity">
   </project>
-  <project name="delphinus-deployment" path="deployment">
+  <!-- <project name="delphinus-deployment" path="deployment">
+  </project> -->
+  <project name="delphinus-ui-deployment-template" path="deployment">
   </project>
   <project name="delphinus-web3subscriber" path="web3subscriber">
   </project>
