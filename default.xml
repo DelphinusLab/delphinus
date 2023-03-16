@@ -7,7 +7,7 @@
   </project>
   <project name="delphinus-monitors" path="monitors">
   </project>
-  <project name="delphinus-solidity" path="solidity">
+  <project name="zkWasm-protocol" path="solidity">
   </project>
   <project name="delphinus-deployment" path="deployment">
   </project>
